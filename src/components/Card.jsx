@@ -4,17 +4,18 @@ import icon_eth from "../assets/images/icon-ethereum.svg";
 import icon_clock from "../assets/images/icon-clock.svg";
 import avatar_img from "../assets/images/image-avatar.png";
 
+/* Dans la fonction Card, les props sont déclarées comme arguments de la fonction  */
 const Card = ({ title, description, ethPrice, timeLeft, creatorName }) => {
  /* On définit notre props dans l'argument de la fonction. */
   const handleLike = () => {
     console.log('Liked!');
-    // Ajoutez votre logique de gestion du "Like" ici
+   
   
   };
 
   const handleDislike = () => {
     console.log('Disliked!');
-    // Ajoutez votre logique de gestion du "Dislike" ici
+   
   };
 
   
